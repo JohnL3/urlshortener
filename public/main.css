@@ -1,0 +1,27 @@
+.header{
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+.main{
+	margin-left: 80px;
+	border-left: 5px solid #eee;
+	margin-right: 80px;
+}
+p{
+	margin-left: 80px;
+	font-size: 20px;
+}
+h2{
+	margin-left: 40px;
+}
+.footer{
+	margin-left: 80px;
+}
+.footer h2{
+	margin-left: 0px;
+}
+code{
+	color:#d02737;
+	font-size: 16px;
+}
