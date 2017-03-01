@@ -1,0 +1,15 @@
+{
+  "name": "Url Shortener",
+  "version": "1.0.0",
+  "description": "returns shortened urls",
+  "main": "server-1.js",
+  "scripts": {
+    "start": "node server-1.js"
+  },
+  "author": "John Long",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1"
+  }
+}
