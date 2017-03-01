@@ -1,5 +1,5 @@
 {
-  "name": "Url Shortener",
+  "name": "urlshortener",
   "version": "1.0.0",
   "description": "returns shortened urls",
   "main": "server-1.js",
