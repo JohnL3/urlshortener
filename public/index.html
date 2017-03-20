@@ -2,35 +2,31 @@
 <head>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>TimeStamp</title>
+        <title>Url Shortener</title>
         <link href="main.css" rel="stylesheet" type="text/css" />
 		<link rel="icon" type="image/png" href="./favicon/favicon-16x16.png" sizes="16x16" />
 </head>
 
 <body>
     <div class="header">
-<h1>API Basejump: Timestamp microservice</h1>
+<h1>API Basejump: Url Shortener</h1>
     </div>
     <div class="main">
     <h2> User stories:</h2>
-<p>1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</p>
-<p>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</p>
-<p>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</p>
+<p>1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</p>
+<p>2) When I visit that shortened URL, it will redirect me to my original link.</p>
+
     </div>
 <div class="footer">
     <h2>Example Usage:</h2>
-    <code>https://timestamp-jl.herokuapp.com/December 15, 2015</code><br>
-    <code>https://timestamp-jl.herokuapp.com/12 15, 2015</code><br>
-    <code>https://timestamp-jl.herokuapp.com/15 dec 2015</code><br>
-    <code>https://timestamp-jl.herokuapp.com/dec-15-2015</code><br>
-    <code>https://timestamp-jl.herokuapp.com/1450137600</code><br>
+    <span>https://jl-url.herokuapp.com/https://www.google.com</span><br>
+    <span>https://jl-url.herokuapp.com/http://freecodecamp.com</span>
     <h2>Example Output:</h2>
-      <code>
-                {
-                  "unix":1450137600,
-                  "natural":"December 15, 2015"
-                }
-        </code>
+ <code>{ "original_url":"http://freecodecamp.com", "short_url":"https://jl-url.herokuapp.com/0" }</code><br>
+ <h2>Usage:</h2>
+  <span>https://jl-url.herokuapp.com/0</span><br>
+  <h2>Will redirect too:</h2>
+  <span>http://freecodecamp.com</span>
 </div>
 </body>
 </html>
