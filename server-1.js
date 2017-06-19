@@ -62,7 +62,7 @@ app.get('/*', function(req, res) {
 	
 	res.send({
 		'original_url':req.original_url,
-		'short_url':'https://little-url.herokuapp.com/'+shortUrl,
+		'short_url':'https://jl-short-url.herokuapp.com/'+shortUrl,
 		'list':list
 	});
 });
